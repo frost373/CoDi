@@ -66,8 +66,9 @@ You can choose only **one** of the following three options as your output:
 2. **Intervention**
    Choose this if:
    - New event should be recorded in the **Story Progress** to follow the utility(narrative) or to move the story forward.
-   - A character has taken an action in the **Latest Story Progress**. The outcome should be described through an Intervention.
-   - You want to describe the reactions of minor characters not listed in the Setup, such as crowds. Choose **Character Action** to describe the reactions of characters listed in the Setup.
+   - You want to describe the reactions of minor characters not listed in the Setup, such as crowds.
+   Do not choose this if:
+   - Do not choose this to describe the reactions of characters listed in the Setup. Instead, choose **Character Action**.
 '''.strip()
 
 OUTPUT_RULES_DIRECT_TEMPLETE_WITHOUT_ENDING_W_ACT = '''
@@ -86,8 +87,9 @@ You can choose only **one** of the following three options as your output:
 2. **Intervention**
    Choose this if:
    - New event should be recorded in the **Story Progress** to follow the **Current Act** or to move the story forward.
-   - A character has taken an action in the **Latest Story Progress**. The outcome should be described through an Intervention.
    - You want to describe the reactions of minor characters not listed in the Setup, such as crowds. Choose **Character Action** to describe the reactions of characters listed in the Setup.
+   Do not choose this if:
+   - Do not choose this to describe the reactions of characters listed in the Setup. Instead, choose **Character Action**.
 '''.strip()
 
 OUTPUT_RULES_DIRECT_TEMPLETE_ENDING = '''
