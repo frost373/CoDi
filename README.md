@@ -65,5 +65,14 @@ You can configure `./scripts/generate.sh` with the following options:
 ---
 
 ## 📚 Citation
-
-Kim, H., Yoo, T., & Cheong, Y. G. (2025, November). CoDi: A Director-Actor Framework for Goal-Driven Interactive Story Generation with LLMs. In Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (Vol. 21, No. 1, pp. 70-80).
+```
+@inproceedings{kim2025codi,
+  title={CoDi: A Director-Actor Framework for Goal-Driven Interactive Story Generation with LLMs},
+  author={Kim, Honggu and Yoo, Taewoo and Cheong, Yun-Gyung},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment},
+  volume={21},
+  number={1},
+  pages={70--80},
+  year={2025}
+}
+```
